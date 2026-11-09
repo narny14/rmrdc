@@ -111,6 +111,7 @@ export default function FeedScreen({
       if (onLoginSuccess) {
         onLoginSuccess();
       }
+      /////////////////////////////////////////////////////
 
       console.log('[RMRDC LOGIN] Connexion réussie');
     } catch (error) {

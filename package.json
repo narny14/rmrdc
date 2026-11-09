@@ -1,5 +1,6 @@
 {
   "name": "rmrdc",
+<<<<<<< HEAD
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -50,4 +51,15 @@
   "engines": {
     "node": ">= 22.11.0"
   }
+=======
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+>>>>>>> ca3075a21d7b7b00f84f8a5a5f14d3a38fd9d118
 }
