@@ -55,13 +55,22 @@ function MainTabs({ onLogout }) {
           );
         },
 
-        tabBarActiveTintColor: '#FFD700',
-        tabBarInactiveTintColor: '#999',
+        tabBarActiveTintColor: '#073EBD',
+        tabBarInactiveTintColor: '#94A3B8',
         headerShown: false,
 
         tabBarStyle: {
-          backgroundColor: '#0A0A0A',
-          borderTopColor: 'rgba(255,215,0,0.2)',
+          backgroundColor: '#FFFFFF',
+          borderTopColor: '#E6ECF5',
+          borderTopWidth: 1,
+          height: 62,
+          paddingTop: 6,
+          paddingBottom: 7,
+          elevation: 12,
+          shadowColor: '#173B70',
+          shadowOffset: { width: 0, height: -3 },
+          shadowOpacity: 0.06,
+          shadowRadius: 8,
         },
       })}
     >
@@ -208,7 +217,7 @@ export default function AppNavigator() {
 const styles = StyleSheet.create({
   loading: {
     flex: 1,
-    backgroundColor: '#0A0A0A',
+    backgroundColor: '#F4F7FC',
     justifyContent: 'center',
     alignItems: 'center',
   },
